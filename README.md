@@ -2,15 +2,17 @@
 
 Extra stuff added to vanilla dmenu:
 
-- reads Xresources (ergo pywal compatible)
+- reads Xresources (pywal compatible)
 - alpha patch, which importantly allows this build to be embedded in transparent st
-- can view color characters like emoji (libxft-bgra is required for this reason)
+- can view color characters like emoji (libxft is required for this reason)
 - `-P` for password mode: hide user input
 - `-r` to reject non-matching input
 - dmenu options are mouse clickable
 
 ## Installation
+You should aready have all dependencies met after installed graphical desktop apps like mpv. \
+Install libxft if you want to show emoji in dmenu.
 
-You must have `libxft-bgra` installed until the libxft upstream is fixed.
+Run `sudo make install` to make and install dmenu.
 
-After making any config changes that you want, but `make`, `sudo make install` it.
+- Use dmenu_run to call it instead of dmenu.
