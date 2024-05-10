@@ -13,6 +13,8 @@ Extra stuff added to vanilla dmenu:
 You should aready have all dependencies met after installed graphical desktop apps like mpv. \
 Install libxft if you want to show emoji in dmenu.
 
+fonts: [firacode nerd(modified)](https://github.com/0n3W4y7ick3t/deployLinux/tree/main/firacode-nerd) and noto-emoji
+
 Run `sudo make install` to make and install dmenu.
 
 - Use dmenu_run to call it instead of dmenu.
